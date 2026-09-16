@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Contacts</title>
+        <meta charset="UTF-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <nav class="navbar">
@@ -9,25 +11,45 @@
             <a href="index.html">Kevin Lopez</a>
                 <ul class="nav-list">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
                     <li><a href="resume.html">Resume</a></li>
+                    <li><a href="portfolio.html">Projects</a></li>
+                    <li><a href="blog.html">Blog</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </h1>
         </nav>
         <main>
-            <h1 class = "page-title">Contacts</h1>
-            <form id="contact-form">
-                <label for = "name">Name: </label>
-                <input type="text" id="name">
-                <label for = "email">Email: </label>
-                <input type="email" id="email">
-                <label for="message">Message: </label>
-                <textarea id="message"></textarea>
-                <input type="submit">
-            </form>
+            <h1 class = "page-title">Contact</h1>
+            <section class="contact-card" aria-labelledby="contact-heading">
+                <div class="contact-intro">
+                    <p class="contact-eyebrow">Let’s connect</p>
+                    <h2 id="contact-heading">Have an idea worth building?</h2>
+                    <p>I’m always happy to talk about software, new opportunities, and collaborative projects.</p>
+                </div>
+                <address class="contact-details">
+                    <a class="contact-link" href="tel:+18052682128">
+                        <span class="contact-icon" aria-hidden="true">☎</span>
+                        <span>Phone</span>
+                        <strong>(805) 268-2128</strong>
+                    </a>
+                    <a class="contact-link" href="mailto:kevzkris23@gmail.com">
+                        <span class="contact-icon" aria-hidden="true">@</span>
+                        <span>Email</span>
+                        <strong>kevzkris23@gmail.com</strong>
+                    </a>
+                    <a class="contact-link" href="https://www.linkedin.com/in/kkl23">
+                        <span class="contact-icon" aria-hidden="true">in</span>
+                        <span>LinkedIn</span>
+                        <strong>Connect with me ↗</strong>
+                    </a>
+                    <a class="contact-link" href="https://github.com/klope102">
+                        <span class="contact-icon" aria-hidden="true">&lt;/&gt;</span>
+                        <span>GitHub</span>
+                        <strong>View my work ↗</strong>
+                    </a>
+                </address>
+            </section>
         </main>
-        <footer class="footer">© 2023 Resume Website | All Rights Reserved</footer>
+        <footer class="footer">© 2026 Personal Website | All Rights Reserved</footer>
     </body>
 </html>
